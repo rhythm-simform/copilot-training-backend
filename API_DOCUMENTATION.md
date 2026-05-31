@@ -8,6 +8,11 @@ A production-grade RESTful API for task management with in-memory storage, input
 http://localhost:3000/api
 ```
 
+## Swagger UI
+- Interactive docs: `http://localhost:3000/api-docs`
+- Raw OpenAPI spec: `http://localhost:3000/api-docs.json`
+- Available only when `NODE_ENV` is `local`, `dev`, or `development`
+
 ## Features
 - ✅ Full CRUD operations (Create, Read, Update, Delete)
 - ✅ In-memory data storage
