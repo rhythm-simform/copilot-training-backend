@@ -1,4 +1,6 @@
-const swaggerDocument = {
+import { JsonObject } from 'swagger-ui-express';
+
+const swaggerDocument: JsonObject = {
   openapi: '3.0.3',
   info: {
     title: 'Task Management API',
