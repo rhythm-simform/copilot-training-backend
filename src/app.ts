@@ -7,9 +7,9 @@ import { requestLogger } from './middleware/requestLogger';
 import swaggerDocument from './config/swagger';
 
 const app: Application = express();
-const swaggerEnabledEnvironments = new Set(['local', 'dev', 'development']);
+const allowedSwaggerEnvironments = new Set(['local', 'dev', 'development']);
 const currentEnvironment = (process.env.NODE_ENV || 'local').toLowerCase();
-const isSwaggerEnabled = swaggerEnabledEnvironments.has(currentEnvironment);
+const isSwaggerEnabled = allowedSwaggerEnvironments.has(currentEnvironment);
 
 // Request logging middleware (should be first)
 app.use(requestLogger);
