@@ -51,6 +51,10 @@ You should see:
 
 Or open in your browser: [http://localhost:3000/health](http://localhost:3000/health)
 
+Swagger API documentation is available at:
+- [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
+- [http://localhost:3000/api-docs.json](http://localhost:3000/api-docs.json)
+
 ## Project Structure
 
 ```
