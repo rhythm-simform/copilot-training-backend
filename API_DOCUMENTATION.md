@@ -11,6 +11,7 @@ http://localhost:3000/api
 ## Swagger UI
 - Interactive docs: `http://localhost:3000/api-docs`
 - Raw OpenAPI spec: `http://localhost:3000/api-docs.json`
+- Available only when `NODE_ENV` is `local`, `dev`, or `development`
 
 ## Features
 - ✅ Full CRUD operations (Create, Read, Update, Delete)
